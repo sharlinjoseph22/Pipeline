@@ -1,75 +1,101 @@
 @import "bootstrap";
 
-
+@import url('https://fonts.googleapis.com/css?family=Warnes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562&display=swap');
 
 .clear {
     clear: both;
 }
 
 .circle {
+    font-family: 'nobilemedium_italic', sans-serif;
     font-weight: bold;
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #F7F7F7;
-    width: 80px;
-    height: 80px;
+    background: #3d96dc;
+    border: 3px solid #F7F7F7;
+    width: 92px;
+    height: 86px;
     margin: 10px 10px;
     text-align: center;
     color: #FFF;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 16px;
     cursor: pointer;
-    transform: rotate(11deg);
-    -ms-transform: rotate(11deg); /* IE 9 */
-    -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
-
+    transform: rotate(1deg);
+    -ms-transform: rotate(1deg); /* IE 9 */
+    -webkit-transform: rotate(1deg); /* Opera, Chrome, and Safari */
+    padding-top: 8px;
 }
 
 .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+ font-family: 'nobilemedium_italic', sans-serif;
   font-style: italic;
-  padding-top: 26px;
+  padding-top: 40px;
+  color: white;
+  font-size: 22px;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+ 
 }
 
 .links {
-  padding-top: 26px;
+  padding-top: 40px;
+  padding-left: 60px;
+
 }
 
 .links a {
-  color: black;
-  font-size: 25px;
+  color: white;
+  font-size: 22px;
   border-bottom: 1px solid #dfdfdf;
-  font-family: 'nobileregular', sans-serif;
+   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+   font-family: 'nobilemedium_italic', sans-serif;
    font-weight: bold;
+   word-spacing: 1em;
+
+}
+
+h1 {
+     font-family: 'nobilemedium_italic', sans-serif;
+color: #526b78;
+}
+
+h2{
+     font-family: 'nobilemedium_italic', sans-serif;
+color: #526b78;
 }
 
 hr {
   clear:both;
 }
 
-h1 {
-  font-family: 'nobileregular', sans-serif;
+.heading {
+  font-family: 'Dancing Script', cursive;
   font-weight: bold;
   font-size : 48px;
+color: black;
 }
 
-h2 {
-  font-family: 'nobilemedium_italic', sans-serif;
+#heading {
+  font-family: 'Dancing Script', cursive;
+ color:black;
 }
+
 
 .next-quote {
   color: #f84342;
   font-family: 'nobilemedium_italic', sans-serif;
   font-size:20px;
+  color: white;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 }
 
 .footer-blurb {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+   font-family: 'nobilemedium_italic', sans-serif;
   font-style: italic;
   text-align: right;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .logo:hover {
@@ -93,10 +119,40 @@ h2 {
 }
 
 h2 span {
-  color: #dddddd;
-  font-family: 'nobileregular', sans-serif;
+  color: #526b78;
+ font-family: 'nobilemedium_italic', sans-serif;
+  font-size: 20px;
 }
 
-::selection {
-  background-color: #f84342;
+.modal-header {
+  background-color: #3d96dc;
 }
+
+.modal-title {
+color: white;
+font-family: 'nobilemedium_italic', sans-serif;
+}
+
+
+::selection {
+  background-color: #e8e5dd;
+}
+
+body {
+   background: url(space.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+  
+.btn-danger {
+  background-color: #3d96dc;
+  border-color: #3d96dc;
+  
+}
+
+
+
+
+
